@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.listen(3000, "127.0.0.1", function() {
+app.listen(3000, function() {
   console.log("Server is running! Access it at http://127.0.0.1:3000");
 });
 
